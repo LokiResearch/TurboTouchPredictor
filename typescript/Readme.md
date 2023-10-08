@@ -23,6 +23,50 @@ let predictedPoint = ttpPredictor.predict({x: 0, y: 0, t: 0, state: "Interacting
 
 ```
 
+## Doc
+
+### constructor
+
+• **new TurboTouchPredictor**()
+
+### predict
+
+▸ **predict**(`e`): `any`
+
+Predicts a point from the current lagging one
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `e` | `Object` | Lagging event |
+| `e.state` | `string` | "Interacting" or "NotInteracting" |
+| `e.t` | `number` | timestamp in nanoseconds |
+| `e.x` | `number` | x coordinate in pixels |
+| `e.y` | `number` | y coordinate in pixels |
+
+#### Returns
+
+`any`
+
+- predicted point p, p.x: x corrdinate, p.y: t corrdinate, p.t: timestamp in nanoseconds
+
+### reset
+
+▸ **reset**(): `void`
+
+### setAmountOfCompensation
+
+▸ **setAmountOfCompensation**(`comp`): `void`
+
+Sets the parameters of the predictor for the given amount of compensation
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `comp` | `number` | Compensation amount in ms. Allowed values: 0, 16, 32, 48, 64 |
+
 ## Related publication
 
 [![DOI](https://img.shields.io/badge/doi-10.1145%2F3242587.3242646-blue)](https://doi.org/10.1145/3242587.3242646)

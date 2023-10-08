@@ -114,7 +114,11 @@ export class TurboTouchPredictor {
   /**
    * Predicts a point from the current lagging one
    * 
-   * @param e - e.x: x coordinate in pixels, e.y: y coordinate in pixels, e.t: timestamp in nanoseconds, e.state: "Interacting" or "NotInteracting"
+   * @param e - Lagging event
+   * @param e.x - x coordinate in pixels
+   * @param e.y - y coordinate in pixels
+   * @param e.t - timestamp in nanoseconds
+   * @param e.state - "Interacting" or "NotInteracting"
    * 
    * @returns - predicted point p, p.x: x corrdinate, p.y: t corrdinate, p.t: timestamp in nanoseconds
    */
