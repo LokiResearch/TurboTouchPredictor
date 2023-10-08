@@ -1,0 +1,26 @@
+{
+  "name": "turbotouchpredictor",
+  "version": "0.0.1",
+  "description": "Algorithm to compensate latency by extrapolating trajectories.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "author": "Géry Casiez",
+  "license": "Custom license",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/casiez/OneEuroFilter/"
+  },
+  "keywords": [
+    "TurboTouch predictor",
+    "latency"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.8.3"
+  },
+  "dependencies": {
+    "1eurofilter": "^1.2.1"
+  }
+}
