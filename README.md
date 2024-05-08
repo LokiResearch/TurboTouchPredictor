@@ -1,8 +1,29 @@
+[![Tests](https://github.com/LokiResearch/TurboTouchPredictor/actions/workflows/tests.yml/badge.svg)](https://github.com/LokiResearch/TurboTouchPredictor/actions/workflows/tests.yml)
 [![NPM Version](https://badge.fury.io/js/turbotouchpredictor.svg?style=flat)](https://npmjs.org/package/turbotouchpredictor)
 
 # TurboTouch predictor
 
 Provides implementations for the [TurboTouch predictor](https://ns.inria.fr/loki/TTp/).
+
+## Want to contribute?
+
+1. [Fork](https://github.com/LokiResearch/TurboTouchPredictor/fork) the repo.
+1. Create a folder with your implementation and add the files for your implementation.
+1. Create a file that can be executed to output in a console the result of the filtering for the ground truth. See the existing files as examples. Create a Makefile to test your implementation (see the other examples).
+1. Update [docker/Dokerfile](docker/Dokerfile) to install what could be missing to compile your code.
+1. Update [Makefile](Makefile) to call your makefile.
+1. Create a pool request.
+
+## Ground truth data
+[strokesPredicted64GroundTruth.csv](strokesPredicted64GroundTruth.csv) has been generated using [this version of the C++ implementation](), with the settings for 64 ms prediction. ```strokesPredicted64GroundTruth.csv``` is used to check other implementations.
+
+# Optimization
+
+```optimization``` folder contains scripts and additional instructions for optimizing the TurboTouch predictor for a given latency, using strokes recorded for a given device.
+
+# InteractiveDemo
+
+[Check the interaction demo](https://github.com/LokiResearch/TurboTouchPredictorInteractiveDemo).
 
 
 ## Related publication

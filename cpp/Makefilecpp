@@ -1,0 +1,13 @@
+all: testcplusplus
+
+PYTHON=python3
+
+main: main
+	qmake6 ; make \
+    ./main
+
+liblag: lag/liblag.a
+	cd lag ; qmake6 ; make
+
+testcplusplus: liblag main
+    $(PYTHON) ../test.py cpp strokesPredicted.csv
