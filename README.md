@@ -15,7 +15,7 @@ Provides implementations for the [TurboTouch predictor](https://ns.inria.fr/loki
 1. Create a pool request.
 
 ## Ground truth data
-[strokesPredicted64GroundTruth.csv](strokesPredicted64GroundTruth.csv) has been generated using [this version of the C++ implementation](), with the settings for 64 ms prediction. ```strokesPredicted64GroundTruth.csv``` is used to check other implementations.
+[strokesPredicted64GroundTruth.csv](strokesPredicted64GroundTruth.csv) has been generated using [this version of the C++ implementation](https://github.com/LokiResearch/TurboTouchPredictor/blob/c02bacfb53d6ff50412f106a948c2c07d6a1feb5/cpp/lag/predictor/TurbotouchPredictor.cpp), with the settings for 64 ms prediction. ```strokesPredicted64GroundTruth.csv``` is used to check other implementations.
 
 # Optimization
 
