@@ -16,7 +16,10 @@ if not(os.path.isfile(args.filename)):
     print("%s does not exist"%args.filename, file=sys.stderr)
     sys.exit()
 
-df = pandas.read_csv('strokesPredicted64GroundTruth.csv')
+try:
+    df = pandas.read_csv('strokesPredicted64GroundTruth.csv')
+except:
+    df = pandas.read_csv('../strokesPredicted64GroundTruth.csv')
 df2 = pandas.read_csv(args.filename)
 
 problem = False

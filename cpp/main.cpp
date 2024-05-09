@@ -83,7 +83,7 @@ int main(int argc, char* argv[]){
 	     string s = value.substr(0,value.length()-1);
 	     InputEvent e = predict(ts, x, y, s);
 	     fileO << ts << "," << x << "," << y << "," << s << "," << e.x << "," << e.y << endl;
-	     cout << "{x:" << x << ", y:" << y << ", s: \"" << s << "\", xp:" << e.x << ", yp:" << e.y << "}, "; 
+	     //cout << "{x:" << x << ", y:" << y << ", s: \"" << s << "\", xp:" << e.x << ", yp:" << e.y << "}, "; 
 	}
 	cout << endl;
 	fileO.close();
