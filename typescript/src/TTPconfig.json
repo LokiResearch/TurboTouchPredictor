@@ -95,6 +95,7 @@
 			"gamma4_y": 0.000044484667,
 
 			"one_euro_enabled": true,
+			"one_euro_intern_freq_update": true,
 			"one_euro_mincutoff": 16.0,
 			"one_euro_beta": 0,
 			"one_euro_freq": 60

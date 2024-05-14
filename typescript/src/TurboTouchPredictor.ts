@@ -141,7 +141,7 @@ export class TurboTouchPredictor {
     this.alpha = this.alpha + this.alpha_gain * (alpha_star - this.alpha);
 
     let ts = undefined;
-    if (this.update1euroInternalFreq) ts = e.t;
+    if (this.update1euroInternalFreq) ts = e.t * Math.pow(10, -9); // Convert to seconds for 1euro filter
 
     let predicted = {t: ts,
                      x: this.predictIntern(e.x, this.px, DerX, this.alpha),
