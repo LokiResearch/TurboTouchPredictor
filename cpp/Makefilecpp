@@ -1,13 +1,19 @@
-all: testcplusplus
+PYTHON = python3
 
-PYTHON=python3
+all: liblag compilemain testcplusplus
 
-main: main
-	qmake6 ; make \
+compilemain: 
+	echo "Compiling main.cpp" ; \
+	qmake6 ; \
+	make
 
-liblag: lag/liblag.a
-	cd lag ; qmake6 ; make
+liblag:
+	echo "Compiling liblag" ; \
+	cd lag ; \
+	qmake6 ; \
+	make
 
-testcplusplus: liblag main
-    ./main
-    $(PYTHON) ../test.py cpp strokesPredicted.csv
+testcplusplus: 
+	echo "Running test" ; \
+	./main ; \
+	$(PYTHON) ../test.py cpp strokesPredicted.csv

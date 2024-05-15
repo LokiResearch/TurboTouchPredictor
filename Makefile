@@ -2,7 +2,7 @@ all: testcplusplus testTypescript
 
 # C++ version original
 testcplusplus:
-	cd cpp ; make Makefilecpp
+	cd cpp ; make -f Makefilecpp
 	
 # Typescript
 testTypescript:

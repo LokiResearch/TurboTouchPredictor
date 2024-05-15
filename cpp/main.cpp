@@ -80,7 +80,13 @@ int main(int argc, char* argv[]){
 	     getline (file, value, ',' );
 	     double y = stod(value);
 	     getline (file, value, '\n' );
-	     string s = value.substr(0,value.length()-1);
+
+	     string s;
+		 if (file.good())
+			s = value.substr(0,value.length()-1);
+		 else
+			s = value;
+
 	     InputEvent e = predict(ts, x, y, s);
 	     fileO << ts << "," << x << "," << y << "," << s << "," << e.x << "," << e.y << endl;
 	     //cout << "{ts:" << ts << ", x:" << x << ", y:" << y << ", s: \"" << s << "\", xp:" << e.x << ", yp:" << e.y << "}, "; 
