@@ -1,5 +1,5 @@
-[![NPM Version](https://badge.fury.io/js/turbotouchpredictor.svg?style=flat)](https://npmjs.org/package/turbotouchpredictor)
-[![npm downloads](https://img.shields.io/npm/dm/turbotouchpredictor.svg?style=flat-square)](https://npm-stat.com/charts.html?package=turbotouchpredictor)
+[![NPM Version]()]()
+[![npm downloads]()]()
 
 # TurboTouch predictor Python version
 
