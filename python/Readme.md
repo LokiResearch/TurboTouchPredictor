@@ -1,5 +1,5 @@
-[![NPM Version]()]()
-[![npm downloads]()]()
+[![NPM Version](https://img.shields.io/pypi/v/TurboTouchPredictor)](https://pypi.org/project/TurboTouchPredictor/)
+[![npm downloads](https://static.pepy.tech/badge/TurboTouchPredictor)](https://pepy.tech/project/TurboTouchPredictor)
 
 # TurboTouch predictor Python version
 
@@ -7,7 +7,7 @@ Provides a Python implementation for the [TurboTouch predictor](https://ns.inria
 
 ## Install
 
-```TODO```
+```pip install TurboTouchPredictor --upgrade```
 
 ## Minimal example
 

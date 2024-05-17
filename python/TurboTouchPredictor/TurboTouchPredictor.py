@@ -1,4 +1,7 @@
-
+# Flavien Volant and Géry Casiez
+#
+# Licence defined in LICENCE.md file
+#
 
 import math
 from OneEuroVectorProcessor import OneEuroVectorProcessor

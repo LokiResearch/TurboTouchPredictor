@@ -1,3 +1,5 @@
+# Flavien Volant and Géry Casiez
+
 import setuptools
 
 with open("README.md", "r") as fh:
@@ -5,9 +7,9 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='TurboTouchPredictor',  
-     version='0.1.0',
+     version='0.1.2',
      author="Flavien Volant and Géry Casiez",
-     author_email="gery.casiez@univ-lille.com",
+     author_email="gery.casiez@univ-lille.fr",
      description="TurboTouch predictor",
      long_description=long_description,
 

@@ -1,3 +1,5 @@
+# Flavien Volant and Géry Casiez
+
 import sys
 from os import path
 sys.path.append(f'{path.dirname(__file__)}/TurboTouchPredictor')
