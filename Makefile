@@ -1,4 +1,4 @@
-all: testcplusplus testTypescript
+all: testcplusplus testTypescript testPython
 
 # C++ version original
 testcplusplus:
@@ -7,3 +7,6 @@ testcplusplus:
 # Typescript
 testTypescript:
 	cd typescript ; make
+
+testPython:
+	cd python ; make
