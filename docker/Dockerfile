@@ -18,4 +18,5 @@ RUN apt-get update && apt-get install -y \
 	npm \
 	node-typescript
 
-RUN pip install pandas argparse --break-system-packages
+RUN pip install pandas argparse --break-system-packages \
+	pip install OneEuroFilter
