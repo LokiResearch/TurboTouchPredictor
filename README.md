@@ -1,5 +1,5 @@
 [![Tests](https://github.com/LokiResearch/TurboTouchPredictor/actions/workflows/tests.yml/badge.svg)](https://github.com/LokiResearch/TurboTouchPredictor/actions/workflows/tests.yml)
-[![NPM Version](https://badge.fury.io/js/turbotouchpredictor.svg?style=flat)](https://npmjs.org/package/turbotouchpredictor)[![NPM Version](https://img.shields.io/pypi/v/TurboTouchPredictor)](https://pypi.org/project/TurboTouchPredictor/)
+[![NPM Version](https://badge.fury.io/js/turbotouchpredictor.svg?style=flat)](https://npmjs.org/package/turbotouchpredictor) [![NPM Version](https://img.shields.io/pypi/v/TurboTouchPredictor)](https://pypi.org/project/TurboTouchPredictor/)
 
 # TurboTouch predictor
 

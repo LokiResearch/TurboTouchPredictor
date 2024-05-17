@@ -4,9 +4,9 @@
 #
 
 import math
-from OneEuroVectorProcessor import OneEuroVectorProcessor
-from TTPconfig import cfg
-from pAttribut import pAttribut
+from .OneEuroVectorProcessor import OneEuroVectorProcessor
+from .TTPconfig import cfg
+from .pAttribut import pAttribut
 
 COMPENSATION_ALLOWED_VALUES = (0, 16, 32, 48, 64)
 

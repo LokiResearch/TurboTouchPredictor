@@ -7,10 +7,11 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='TurboTouchPredictor',  
-     version='0.1.2',
+     version='0.1.5',
      author="Flavien Volant and Géry Casiez",
      author_email="gery.casiez@univ-lille.fr",
      description="TurboTouch predictor",
+     install_requires = ["OneEuroFilter"],
      long_description=long_description,
 
      long_description_content_type="text/markdown",
